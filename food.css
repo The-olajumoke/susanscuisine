@@ -1,0 +1,80 @@
+
+/******************************************
+                  FOODLINKS
+*******************************************/
+.food-links{
+    height:auto;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.foodlink{
+    background-color: #5764f5 ;
+    width: 20%;
+    padding: 1% ;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-style: italic;
+    border: 5px solid white;
+  }
+
+
+
+
+/* ***********VARIOUS FOODS*************** */
+.fooditems{
+    display: flex;
+    height:auto;
+    flex-wrap: wrap;
+    padding: 1%;
+    justify-content: center;
+    background-color:rgba(0,0,0,0.4)
+
+    
+}
+.fooditem{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2);
+    max-width: 350px;
+    height: 500px;
+    margin: 2% auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(0, 0, 0);
+    color: white;
+}
+
+.fooditem button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 70%;
+    font-size: 18px;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+
+
+/* *******MEDIA QUERIES */
+@media only screen and (max-width:600px){
+    /* foodlinks */
+    
+.foodlink{
+    font-size: 17px;
+    padding: 2%;
+}
+
+/* various foods */
+
+
+}
